@@ -1,0 +1,29 @@
+<form action="display.php" method="POST">
+
+1. A user should fix each data entry error before being notified of the next one.
+True or False?
+<br>
+<input type="radio" id="t" name="questionone" value="True">
+  <label for="True">True</label><br>
+  <input type="radio" id="f" name="questionone" value="false">
+  <label for="false">False</label><br>
+<br>
+Decision-making structures cannot be nested. True or False?
+<br>
+<input type="radio" id="t" name="questiontwo" value="True">
+  <label for="True">True</label><br>
+  <input type="radio" id="f" name="questiontwo" value="false">
+  <label for="false">False</label><br>
+<br>
+
+You must open and close a file stream when you use the file_put_contents()
+function. True or False?
+<br>
+<input type="radio" id="t" name="questionthree" value="True">
+  <label for="True">True</label><br>
+  <input type="radio" id="f" name="questionthree" value="false">
+  <label for="false">False</label><br>
+<br>
+<input type="submit" value="Submit">
+<input type="reset">
+</form>
